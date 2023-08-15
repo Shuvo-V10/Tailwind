@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Tailwind</title>
+    <link rel="stylesheet" href="output.css" />
+</head>
+
+<body>
+    <nav class="bg-gray-800">
+        <div class="flex">
+            <!-- the flex-1 utility class is used to distribute available space within a flex container among its flex items -->
+            <div class="flex flex-shrink-0 items-center">
+                <!-- w-auto making it proportional to the height, making sure we get the original size of the image -->
+                <img class="block h-8 w-auto" src="https://tailwindui.com/img/logos/mark.svg?color=cyan&shade=500"
+                    alt="tailwind logo" srcset="">
+                <!-- items-center - vertically center-align the flex items -->
+                <!-- justify-center - horizontally center-align the flex items -->
+                <h1 class="text-white flex items-center justify-center px-2 text-2xl font-medium">Tailwindcss</h1>
+
+            </div>
+
+            <div class="flex space-x-4">
+                <a href="#" class="bg-gray-700 text-white px-3 py-3 rounded-md text-sm font-medium">Home</a>
+
+                <a href="#" class="bg-gray-700 text-white px-3 py-3 rounded-md text-sm font-medium">Testimonials</a>
+
+                <a href="#" class="bg-gray-700 text-white px-3 py-3 rounded-md text-sm font-medium">Price</a>
+
+                <a href="#" class="bg-gray-700 text-white px-3 py-3 rounded-md text-sm font-medium">Project</a>
+            </div>
+        </div>
+    </nav>
+</body>
+
+</html>
